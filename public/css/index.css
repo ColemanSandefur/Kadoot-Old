@@ -1,0 +1,39 @@
+body {
+  background-color: orange;
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-holder {
+  position: relative;
+  text-align: center;
+}
+
+.form-holder form input {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+  padding: 0 5px;
+}
+
+.form-holder form button {
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+}
+
+.form-holder form button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

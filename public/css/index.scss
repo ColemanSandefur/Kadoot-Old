@@ -1,0 +1,37 @@
+body {
+    background-color: orange;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.form-holder {
+    position:relative;
+    text-align: center;   
+
+    form{
+        input{
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            height: 2rem;
+            padding: 0 5px;
+        }
+
+        button{
+            border: none;
+            border-radius: 10px;
+            height: 2rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
